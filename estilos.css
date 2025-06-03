@@ -218,9 +218,8 @@ h2::after { /* Linha decorativa abaixo do título */
 }
 
 .foto-perfil {
-    width: 100px; /* Tamanho fixo para a foto de perfil */
-    height: 100px;
-    border-radius: 50%; /* Torna a imagem circular */
+    width: 200px; /* Tamanho fixo para a foto de perfil */
+    height: 200px;
     object-fit: cover; /* Garante que a imagem preencha sem distorção */
     border: 3px solid var(--secondary-green); /* Borda decorativa */
     flex-shrink: 0; /* Impede que a imagem encolha em telas pequenas */
